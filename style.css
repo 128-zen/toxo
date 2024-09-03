@@ -12,7 +12,6 @@
   font-family: 'Open Sauce One';
   src: url($assets-inter-bold-woff2) format('woff2');
   font-weight: 700;
-  font-style: normal;
   font-display: swap;
 }
 
