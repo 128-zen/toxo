@@ -810,10 +810,6 @@ ul {
   cursor: pointer;
 }
 
-.user-nav-list > li > .submit-a-request {
-  color: $text_primary;
-  background-color: $secondary_button_color;
-}
 
 @media (max-width: 768px) {
   .nav-wrapper-desktop {
