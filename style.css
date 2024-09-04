@@ -2452,6 +2452,22 @@ ul {
   }
 }
 
+/* Partners */
+
+.partners .container > div:first-of-type {
+  text-align: center;
+  font-size: 13.5px;
+  margin-bottom: 30px;
+}
+
+.partners .container > div:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
 /***** Submit a request page *****/
 .submit-request-page, .new-post-page {
   padding: 80px 0 120px;
