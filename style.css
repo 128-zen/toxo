@@ -1952,7 +1952,7 @@ ul {
   color: $text_secondary;
 }
 
-.categories__section h5:hover a, .categories__section li:hover a {
+.categories__section h5 a:hover, .categories__section li a:hover {
   color: $hover_link_color;
 }
 
@@ -2078,8 +2078,17 @@ ul {
 
 /* VIDEOS */
 
-.videos{
+.videos {
   text-align: center;
+}
+
+.videos .container {
+  max-width: 1170px;
+  overflow: hidden;
+  margin: 0 15px;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: $background_secondary_color;
 }
 
 .videos__head {
@@ -2088,11 +2097,6 @@ ul {
   align-items: center;
   gap: 30px;
   text-align: left;
-}
-
-.videos__head .button-primary {
-  color: $text_primary;
-  background-color: $secondary_button_color;
 }
 
 .videos__list{
