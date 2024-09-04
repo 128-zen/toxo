@@ -2079,6 +2079,8 @@ ul {
 /* VIDEOS */
 
 .videos {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
@@ -2131,6 +2133,16 @@ ul {
   object-fit: cover;
   width: 100%;
   transition: all .5s ease;
+}
+
+.videos__img div {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: $background_tertiary_color;
 }
 
 .videos__item svg{
