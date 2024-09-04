@@ -1948,15 +1948,11 @@ ul {
   background-color: $background_primary_color;
 }
 
-.categories__section > h6 {
+.categories__section h5 a {
   color: $text_secondary;
 }
 
-.categories__section > p {
-  color: $body_secondary;
-}
-
-.categories__section > h6:hover, .categories__section > li:hover {
+.categories__section h6:hover a, .categories__section > li:hover a {
   color: $hover_link_color;
 }
 
@@ -2019,6 +2015,10 @@ ul {
   gap: 15px;
   align-items: center;
   margin-bottom: 20px;
+  color: $body_secondary;
+}
+
+.categories__section li a {
   color: $body_secondary;
 }
 
