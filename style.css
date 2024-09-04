@@ -2085,6 +2085,7 @@ ul {
 }
 
 .videos .container {
+  position: relative;
   max-width: 1170px;
   overflow: hidden;
   margin: 0 15px -200px;
@@ -2236,11 +2237,13 @@ ul {
 .faq .container h2 {
   text-align: center;
   margin-bottom: 20px;
+  color: $text_secondary;
 }
 
 .faq .container > p {
   text-align: center;
   margin-bottom: 60px;
+  color: $body_secondary;
 }
 
 .faq__items {
@@ -2255,12 +2258,21 @@ ul {
   padding: 20px 30px;
   border-radius: 12px;
   align-self: flex-start;
-  background-color: $background_tertiary_color;
+  background-color: $background_secondary_color;
   border: 1px solid $border_color;
+}
+
+.faq__item.open {
+  background-color: $primary_button_color;
+  border: 1px solid $primary_button_color;
 }
 
 .faq__item h6 {
   transition: all .3s ease;
+}
+
+.faq__item.open h6 {
+  color: $text_secondary;
 }
 
 .faq__item:hover h6 {
@@ -2278,7 +2290,7 @@ ul {
   font-size: 0;
   padding: 10px 9px;
   border-radius: 15px;
-  border: 1px solid $primary_button_color;
+  background-color: $primary_button_color;
 }
 
 .faq__item:last-child {
@@ -2290,8 +2302,7 @@ ul {
 }
 
 .faq__item.open span {
-  background-color: $primary_button_color;
-  border: 1px solid $primary_button_color;
+  background-color: $background_primary_color;
 }
 
 .faq__item.open svg {
@@ -2299,7 +2310,7 @@ ul {
 }
 
 .faq__item svg path {
-  stroke: $text_primary;
+  stroke: $text_secondary;
 }
 
 .faq__item.open svg path {
@@ -2314,6 +2325,7 @@ ul {
   overflow: hidden;
   opacity: 0;
   transition: all 0.2s linear;
+  color: $body_secondary;
 }
 
 .faq__item.open p {
