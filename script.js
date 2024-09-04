@@ -191,7 +191,7 @@
   if (videoThumbnails) {
     videoThumbnails.forEach(function (thumbnail) {
       //let thumbnailImage = thumbnail.querySelector('.videos__img');
-      let thumbnailImage = thumbnail.querySelector('.videos__img div div svg');
+      let thumbnailImage = thumbnail.querySelector('svg');
       let thumbnailHeading = thumbnail.querySelector('h4');
       
       thumbnailImage.addEventListener('click', openModal);
