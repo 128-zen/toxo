@@ -2400,7 +2400,6 @@ ul {
   border-radius: 12px;
   text-align: left;
   align-items: center;
-  text-align: center;
   background-color: $background_secondary_color;
 }
 
@@ -2414,7 +2413,7 @@ ul {
 .find-solution__head div {
   font-size: 0;
   border-radius: 50px;
-  padding: 15px;
+  padding: 10px;
   background-color: $background_primary_color;
 }
 
