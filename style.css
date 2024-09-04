@@ -2087,7 +2087,7 @@ ul {
 .videos .container {
   max-width: 1170px;
   overflow: hidden;
-  margin: 0 15px;
+  margin: 0 15px -200px;
   border-radius: 20px;
   padding: 40px;
   background-color: $background_secondary_color;
@@ -2139,6 +2139,7 @@ ul {
   left: 15px;
   right: 15px;
   border-radius: 20px;
+  text-align: left;
   padding: 20px;
   background-color: $background_tertiary_color;
 }
@@ -2147,8 +2148,8 @@ ul {
   display: flex;
   gap: 30px;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
-  text-align: left;
 }
 
 .videos__img > div svg {
@@ -2227,6 +2228,10 @@ ul {
 }
 
 /* FAQ */
+.faq {
+  padding-top: 320px;
+  background-color: $background_primary_color;
+}
 
 .faq .container h2 {
   text-align: center;
@@ -2242,9 +2247,6 @@ ul {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  border-radius: 12px;
-  padding: 40px;
-  background-color: $background_primary_color;
 }
 
 .faq__item {
@@ -2322,11 +2324,23 @@ ul {
 }
 
 @media (max-width: 1023px) {
+  .faq {
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .faq {
+    padding-top: 280px;
+  }
   .faq__item {
     padding: 20px;
   }
 }
 @media (max-width: 767px) {
+  .faq {
+    padding-top: 260px;
+  }
   .faq .container > p {
     margin-bottom: 40px;
   }
