@@ -122,7 +122,7 @@
       const safeDomain = encodeURIComponent(domain.trim()); 
       let linkText = document.createTextNode(keyword.trim());
       let link = document.createElement("a");
-      link.setAttribute("href", `https://${safeDomain}/hc/en-us/search?query=${safeKeyword}`);
+      link.setAttribute("href", `https://${safeDomain}/hc/search?query=${safeKeyword}`);
       link.appendChild(linkText);
       keywordsElement.appendChild(link);
     });
