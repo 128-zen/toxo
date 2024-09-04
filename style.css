@@ -1820,7 +1820,7 @@ ul {
   fill: $background_primary_color;
 }
 
-.quick-links__item div a {
+.quick-links__item > div a {
   position: absolute;
   font-size: 18px;
   z-index: 1;
@@ -1830,7 +1830,7 @@ ul {
   height: 100%;
 }
 
-.quick-links__item div {
+.quick-links__item > div {
   position: relative;
   display: flex;
   gap: 15px;
@@ -1838,16 +1838,24 @@ ul {
   width: fit-content;
 }
 
-.quick-links__item div span {
+.quick-links__item > div span {
+  border-radius: 50px;
   padding: 6px 14px;
+  color: $text_secondary;
   background-color: $primary_button_color;
 }
 
-.quick-links__item div svg path {
-  stroke: $text_primary;
+.quick-links__item > div div {
+  border-radius: 50px;
+  padding: 6px;
+  background-color: $primary_button_color;
 }
 
-.quick-links__item div:hover svg {
+.quick-links__item > div svg path {
+  stroke: $text_secondary;
+}
+
+.quick-links__item > div:hover svg {
   transform: rotate(45deg);
 }
 
