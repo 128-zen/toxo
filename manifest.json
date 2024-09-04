@@ -1,7 +1,7 @@
 {
   "name": "Toxo 128",
   "author": "128zen",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -408,6 +408,116 @@
           "description": "Show hero subtitle",
           "label": "Toggle Subtitle Component",
           "value": true
+        }
+      ]
+    },
+    {
+      "label": "Homepage Quick Links Section",
+      "variables": [
+        {
+          "identifier": "show_quick_links_section",
+          "type": "checkbox",
+          "description": "Show section",
+          "label": "Toggle Section",
+          "value": true
+        },
+        {
+          "identifier": "quick_links_heading",
+          "type": "text",
+          "description": "Enter section heading",
+          "label": "Section Heading",
+          "value": "Let’s get started"
+        },
+        {
+          "identifier": "quick_links_subtitle",
+          "type": "text",
+          "description": "Enter section subtitle",
+          "label": "Section Subtitle",
+          "value": "Easily create Documentation, Knowledge-base, FAQ, Forum and more"
+        },
+        {
+          "identifier": "quick_links_item1_heading",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 1 Heading",
+          "value": "Grow with working capital"
+        },
+        {
+          "identifier": "quick_links_item1_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 1 Text",
+          "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
+        },
+        {
+          "identifier": "quick_links_item1_link_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 1 Link Text",
+          "value": "Learn more"
+        },
+        {
+          "identifier": "quick_links_item1_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 1 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "quick_links_item2_heading",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 2 Heading",
+          "value": "Grow with working capital"
+        },
+        {
+          "identifier": "quick_links_item2_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 2 Text",
+          "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
+        },
+        {
+          "identifier": "quick_links_item2_link_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 2 Link Text",
+          "value": "Learn more"
+        },
+        {
+          "identifier": "quick_links_item2_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 2 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "quick_links_item3_heading",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 3 Heading",
+          "value": "Grow with working capital"
+        },
+        {
+          "identifier": "quick_links_item3_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 3 Text",
+          "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
+        },
+        {
+          "identifier": "quick_links_item3_link_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 3 Link Text",
+          "value": "Learn more"
+        },
+        {
+          "identifier": "quick_links_item3_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 3 Link",
+          "value": "#"
         }
       ]
     },

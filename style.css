@@ -1492,9 +1492,9 @@ ul {
   letter-spacing: 0.63px;
   cursor: pointer;
   transition: all .3s ease;
-  background-color: $primary_button_color;
-  border: 1px solid $primary_button_color;
-  color: $text_secondary;
+  background-color: $text_secondary;
+  border: 1px solid $text_secondary;
+  color: $text_primary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
   background-color: $background_primary_color;
@@ -1771,6 +1771,102 @@ ul {
   }
 }
 
+/* Quick Links */
+
+
+.quick-links h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.quick-links .container > p {
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.quick-links__items {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.quick-links__item {
+  position: relative;
+  width: calc(33.3% - 20px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quick-links__item h4 {
+  margin: 20px 0;
+}
+
+.quick-links__item p {
+  margin-bottom: 30px;
+}
+
+.quick-links__item svg path {
+  fill: $text_secondary;
+}
+
+.quick-links__item svg rect:first-of-type {
+  fill: $background_secondary_color;
+}
+
+.quick-links__item svg rect:last-of-type {
+  stroke: $primary_button_color;
+}
+
+.quick-links__item div a {
+  position: absolute;
+  font-size: 18pxß;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.quick-links__item div {
+  position: relative;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: fit-content;
+}
+
+.quick-links__item div svg path {
+  stroke: $text_primary;
+}
+
+.quick-links__item div:hover svg {
+  transform: rotate(45deg);
+}
+
+
+
+@media (max-width: 1023px) {
+  .quick-links__items {
+    margin-top: 40px;
+  }
+  .quick-links__item {
+    width: calc(50% - 15px);
+  }
+}
+@media (max-width: 767px) {
+  .quick-links__items {
+    gap: 20px;
+  }
+  .quick-links__item {
+    width: 100%;
+    max-width: 470px;
+  }
+}
 
 /* Introduction */
 
