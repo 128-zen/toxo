@@ -1,7 +1,7 @@
 {
   "name": "Toxo 128",
   "author": "128zen",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -20,7 +20,7 @@
           "type": "color",
           "description": "Choose body secondary color",
           "label": "Body Secondary Color",
-          "value": "#62636C"
+          "value": "#C7CAD0"
         },
         {
           "identifier": "body_background_color",

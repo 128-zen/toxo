@@ -1434,12 +1434,15 @@ ul {
   font-size: 20px;
   margin-bottom: 60px;
   max-width: 645px;
-  color: $body_secondary;
+  color: $text_secondary;
 }
 
 @media (max-width: 1279px) {
   .hero-text {
     font-size: 50px;
+  }
+  .hero > div {
+    width: calc(100% - 30px);
   }
   .hero > div .container {
     padding-top: 100px;
@@ -1476,7 +1479,7 @@ ul {
 
 .hero .search input[type=search], .error-page .search input[type=search]{
   border-radius: 30px;
-  padding: 15px 150px 15px 50px;
+  padding: 11px 150px 11px 50px;
   outline: none;
   color: $body_primary;
 }
