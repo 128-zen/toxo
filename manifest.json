@@ -1,7 +1,7 @@
 {
   "name": "Toxo 128",
   "author": "128zen",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -518,99 +518,6 @@
           "description": "Insert link",
           "label": "Item 3 Link",
           "value": "#"
-        }
-      ]
-    },
-    {
-      "label": "Homepage Introduction Section",
-      "variables": [
-        {
-          "identifier": "show_introduction_section",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        },
-        {
-          "identifier": "introduction_item1_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 1 Image"
-        },
-        {
-          "identifier": "introduction_item1_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 1 Heading",
-          "value": "Getting started"
-        },
-        {
-          "identifier": "introduction_item1_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 1 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "introduction_item1_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 1 Subtitle",
-          "value": "Discover everything you need to know to start your journey"
-        },
-        {
-          "identifier": "introduction_item2_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 2 Image"
-        },
-        {
-          "identifier": "introduction_item2_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 2 Heading",
-          "value": "Community"
-        },
-        {
-          "identifier": "introduction_item2_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 2 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "introduction_item2_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 2 Subtitle",
-          "value": "Discover everything you need to know to start your journey"
-        },
-        {
-          "identifier": "introduction_item3_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 3 Image"
-        },
-        {
-          "identifier": "introduction_item3_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 3 Heading",
-          "value": "Submit a request"
-        },
-        {
-          "identifier": "introduction_item3_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 3 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "introduction_item3_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 3 Subtitle",
-          "value": "Discover everything you need to know to start your journey"
         }
       ]
     },
