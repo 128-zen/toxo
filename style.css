@@ -1952,7 +1952,7 @@ ul {
   color: $text_secondary;
 }
 
-.categories__section h6:hover a, .categories__section > li:hover a {
+.categories__section h5:hover a, .categories__section li:hover a {
   color: $hover_link_color;
 }
 
@@ -1980,6 +1980,7 @@ ul {
   height: 100%;
   position: absolute;
   border-radius: 50px;
+  z-index: 6;
 }
 
 .categories__arrow svg rect:first-of-type {
