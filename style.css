@@ -2135,7 +2135,7 @@ ul {
   transition: all .5s ease;
 }
 
-.videos__img div {
+.videos__img > div {
   position: absolute;
   bottom: 15px;
   left: 15px;
@@ -2145,11 +2145,13 @@ ul {
   background-color: $background_tertiary_color;
 }
 
-.videos__item svg{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.videos__img > div div {
+  display: flex;
+  gap: 30px;
+}
+
+.videos__img > div svg {
+  flex: 0 0 auto;
   cursor: pointer;
 }
 
@@ -2164,27 +2166,23 @@ ul {
   color: $hover_link_color;
 }
 
-.videos__item circle{
+.videos__img > div svg rect {
+  fill: $background_primary_color;
+}
+
+.videos__img > div svg path {
+  fill: $text_secondary;
+}
+
+.videos__img > div svg:hover rect {
   fill: $primary_button_color;
 }
 
-.videos__img path{
+.videos__img > div svg:hover path {
   fill: $text_secondary;
 }
 
-.videos__img:hover{
-  opacity: .8;
-}
-
-.videos__img:hover circle{
-  fill: $background_secondary_color;
-}
-
-.videos__img:hover path{
-  fill: $text_secondary;
-}
-
-.video-modal{
+.video-modal {
   display: none;
   position: fixed;
   z-index: 4;
