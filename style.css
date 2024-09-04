@@ -2279,6 +2279,10 @@ ul {
   color: $hover_link_color;
 }
 
+.faq__item.open h6:hover {
+  color: $text_secondary;
+}
+
 .faq__item div {
   display: flex;
   gap: 20px;
@@ -2325,7 +2329,7 @@ ul {
   overflow: hidden;
   opacity: 0;
   transition: all 0.2s linear;
-  color: $body_secondary;
+  color: $text_secondary;
 }
 
 .faq__item.open p {
@@ -2367,6 +2371,9 @@ ul {
 
 
 /* Find Solution */
+.find-solution {
+  padding-top: 120px;
+}
 
 .find-solution h2 {
   margin-bottom: 20px;
@@ -2402,31 +2409,30 @@ ul {
   align-items: center;
   gap: 18px;
   margin-bottom: 18px;
-  flex-direction: column;
 }
 
 .find-solution__head div {
   font-size: 0;
   border-radius: 50px;
   padding: 15px;
-  background-color: $primary_button_color;
+  background-color: $background_primary_color;
 }
 
 .find-solution__head img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
-.find-solution__item a, .find-solution__item p {
-  color: $text_secondary;
+@media (max-width: 1279px) {
+  .find-solution {
+    padding-top: 100px;
+  }
 }
-
-.find-solution__item a:hover {
-  color: $hover_link_color;
-}
-
 
 @media (max-width: 1023px) {
+  .find-solution {
+    padding-top: 80px;
+  }
   .find-solution__items {
     margin-top: 40px;
   }
@@ -2435,6 +2441,9 @@ ul {
   }
 }
 @media (max-width: 767px) {
+  .find-solution {
+    padding-top: 60px;
+  }
   .find-solution__items {
     gap: 20px;
   }
