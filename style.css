@@ -1479,7 +1479,7 @@ ul {
 
 .hero .search input[type=search], .error-page .search input[type=search] {
   border-radius: 30px;
-  padding: 11px 150px 11px 50px;
+  padding: 11px 50px;
   outline: none;
   color: $body_primary;
 }
