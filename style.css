@@ -2794,12 +2794,11 @@ ul {
 }
 
 .category-page__article {
-  padding: 30px;
-  border-radius: 8px;
+  position: relative;
+  padding: 30px 80px 30px 30px;
+  border-radius: 20px;
   width: calc(33.3% - 20px);
-  box-shadow: 2px 2px 0px 0px rgba(22, 24, 45, 0.50);
-  background-color: $background_tertiary_color;
-  border: 1px solid $border_color;
+  background-color: $background_primary_color;
 }
 
 .category-page__article:nth-child(n+7) {
