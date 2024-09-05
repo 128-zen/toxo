@@ -1583,7 +1583,7 @@ ul {
 }
 
 .page-header .dropdown-toggle {
-  gap: 15px;
+  gap: 10px;
 }
 
 .page-header .dropdown-toggle div, .featured-posts-btn > div {
@@ -4152,10 +4152,6 @@ ul {
   background: $background_secondary_color;
   width: calc(33.3% - 20px);
 }
-.featured-posts-item a {
-  display: block;
-  width: fit-content;
-}
 .featured-posts-btn {
   cursor: pointer;
   text-transform: capitalize;
@@ -4362,7 +4358,6 @@ ul {
 } 
 
 .striped-list-title {
-  display: block;
   margin-right: 5px;
 }
 .post-overview-item {
@@ -4785,6 +4780,10 @@ ul {
 .topic-header .button {
   background-color: $background_tertiary_color;
   border: 1px solid $background_tertiary_color;
+}
+.topic-header .button:hover {
+  background-color: $primary_button_color;
+  border: 1px solid $primary_button_color;
 }
 .comment-form-controls label {
   margin-right: 30px;
@@ -6773,7 +6772,7 @@ html[dir=rtl] .notification-left-aligned {
 
 .dropdown-menu {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 4px 22px 0px rgba(0, 0, 0, 0.04);
   display: none;
   font-size: 16px;
