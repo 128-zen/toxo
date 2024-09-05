@@ -1587,12 +1587,10 @@ ul {
 }
 
 .page-header .dropdown-toggle div, .featured-posts-btn > div {
-  padding: 10px;
+  padding: 16px;
   border-radius: 50px;
   font-size: 0;
-  box-shadow: 2px 2px 0px 0px rgba(22, 24, 45, 0.50);
-  border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $primary_button_color;
 }
 
 .page-header .dropdown-toggle path, .featured-posts-btn svg path {
@@ -2617,7 +2615,7 @@ ul {
   background-color: transparent;
   border: 1px solid $text_secondary;
   color: $text_secondary;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .recent-activity-item-parent:hover {
@@ -4120,9 +4118,12 @@ ul {
   margin-bottom: 30px;
 }
 .community-header .title {
+  padding: 6px 14px;
+  border-radius: 50px;
   margin-bottom: 0;
   font-size: 18px;
   transition: all .3s ease;
+  background-color: $primary_button_color;
 }
 
 .post-to-community {
@@ -4278,6 +4279,10 @@ ul {
 
 .topic-header .dropdown-toggle {
   color: $text_secondary;
+}
+
+.topic-header .dropdown-toggle svg path {
+  fill: $text_secondary;
 }
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded='true'], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded='true'], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] {
