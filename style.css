@@ -1956,7 +1956,7 @@ ul {
   color: $hover_link_color;
 }
 
-.categories__section > svg, .category-page__article > svg {
+.categories__section > svg, .category-page__article > svg, .section-page__article > svg {
   position: absolute;
   right: -10px;
   bottom: -10px;
@@ -2834,7 +2834,7 @@ ul {
   transition: all .3s ease;
 }
 
-.category-page__article > div:last-of-type a, .section-page__article > div:last-of-type a, .featured-posts-btn a {
+.featured-posts-btn a {
   position: absolute;
   z-index: 1;
   left: 0;
@@ -3061,13 +3061,12 @@ ul {
 }
 
 .section-page__article {
+  position: relative;
   width: 100%;
   height: 100%;
-  padding: 30px;
-  border-radius: 6px;
-  box-shadow: 2px 2px 0px 0px rgba(22, 24, 45, 0.50);
-  border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  padding: 30px 80px 30px 30px;
+  border-radius: 20px;
+  background-color: $background_primary_color;
 }
 
 @media (max-width: 1023px) {
