@@ -1593,7 +1593,11 @@ ul {
   background-color: $primary_button_color;
 }
 
-.page-header .dropdown-toggle path, .featured-posts-btn svg path {
+.page-header .dropdown-toggle path {
+  stroke: $text_secondary;
+}
+
+.featured-posts-btn svg path {
   stroke: $text_primary;
 }
 
@@ -1959,14 +1963,14 @@ ul {
   color: $hover_link_color;
 }
 
-.categories__section > svg, .category-page__article > svg, .section-page__article > svg {
+.categories__section > svg, .category-page__article > svg, .section-page__article > svg, .featured-posts-item > svg {
   position: absolute;
   right: -10px;
   bottom: -10px;
   z-index: 3;
 }
 
-.categories__section > svg path {
+.categories__section > svg path, .category-page__article > svg path, .section-page__article > svg path, .featured-posts-item > svg path {
   fill: $body_background_color;
 }
 
@@ -4142,9 +4146,10 @@ ul {
   gap: 30px;
 }
 .featured-posts-item {
-  border-radius: 12px;
-  padding: 30px;
-  background: $background_primary_color;
+  position: relative;
+  border-radius: 20px;
+  padding: 30px 80px 30px 30px;
+  background: $background_secondary_color;
   width: calc(33.3% - 20px);
 }
 .featured-posts-item a {
@@ -4390,7 +4395,7 @@ ul {
   display: none;
 }
 .striped-list-count-item svg path {
-  fill: $secondary_button_color;
+  fill: $primary_button_color;
 }
 .striped-list-number {
   text-align: center;
@@ -4777,7 +4782,7 @@ ul {
 /* .post-sidebar .button, .community-footer .button, .topic-header .button {
   padding: 15px 25px;
 } */
-.post-sidebar .button {
+.topic-header .button {
   background-color: $background_tertiary_color;
   border: 1px solid $background_tertiary_color;
 }
