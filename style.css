@@ -3469,7 +3469,7 @@ ul {
   margin: 15px 0;
 }
 .article-votes {
-  border-radius: 6px;
+  border-radius: 20px;
   padding: 40px;
   text-align: center;
   margin-top: 40px;
@@ -3478,6 +3478,10 @@ ul {
 
 .article-votes h3 {
   color: $text_secondary;
+}
+
+.article-votes p {
+  color: $body_secondary;
 }
 
 .article-votes a {
@@ -3509,7 +3513,6 @@ ul {
 }
 .article-votes-count {
   margin-bottom: 10px;
-  color: $body_secondary;
 }
 .article-votes-request a {
   color: $hover_link_color;
@@ -3713,7 +3716,7 @@ ul {
   padding-bottom: 30px;
   margin-bottom: 30px;
   border-radius: 8px;
-  border-bottom;: 1px solid $border_color;
+  border-bottom: 1px solid $border_color;
   background-color: $background_tertiary_color;
 }
 .comment:last-of-type {
