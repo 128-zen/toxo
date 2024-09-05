@@ -361,13 +361,12 @@ select::-ms-expand {
 }
 
 textarea {
-  border-radius: 8px;
+  border-radius: 20px;
   resize: vertical;
   width: 100%;
   outline: none;
   padding: 18px;
   height: 140px;
-  box-shadow: 2px 2px 0px 0px rgba(22, 24, 45, 0.50);
   border: 1px solid $border_color;
   background-color: $background_tertiary_color;
 }
@@ -443,15 +442,14 @@ ul {
 
 .comment-form-controls input[type=submit] {
   background-color: $primary_button_color;
-  border: 1px solid $secondary_button_color;
+  border: 1px solid $primary_button_color;
   color: $text_secondary;
 }
 
 .comment-form-controls input[type=submit]:hover {
-  background-color: $secondary_button_color;
-  border: 1px solid $background_secondary_color;
-  color: $text_primary;
-  box-shadow: 2px 2px 0px 0px rgba(22, 24, 45, 0.50);
+  background-color: $background_primary_color;
+  border: 1px solid $background_primary_color;
+  color: $text_secondary;
 }
 
 .button-large[disabled], input[type=submit][disabled] {
@@ -3712,11 +3710,10 @@ ul {
 /***** Comments *****/
 /* Styles comments inside articles, posts and requests */
 .comment {
-  padding: 20px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
   border-radius: 8px;
-  box-shadow: 2px 2px 0px 0px rgba(22, 24, 45, 0.50);
-  border: 1px solid $border_color;
+  border-bottom;: 1px solid $border_color;
   background-color: $background_tertiary_color;
 }
 .comment:last-of-type {
