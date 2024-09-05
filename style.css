@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'Open Sauce One';
+  font-family: 'Inter';
   src: url($assets-inter-bold-woff2) format('woff2');
   font-weight: 700;
   font-display: swap;
@@ -3015,12 +3015,12 @@ ul {
 }
 
 .nav__sections a.active {
-  color: $hover_link_color;
+  color: $text_primary;
   font-weight: 700;
 }
 
 .nav__sections a.active:hover {
-  text-shadow: none;
+  color: $text_primary;
 }
 
 .nav__sections a:last-child {
