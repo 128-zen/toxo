@@ -2725,9 +2725,6 @@ ul {
 }
 
 /***** Category pages *****/
-.category-page .hero {
-  background-color: $background_primary_color;
-}
 
 .category-page .hero .container {
   position: relative;
@@ -2740,6 +2737,7 @@ ul {
 .category-page .hero h1 {
   max-width: 900px;
   text-align: center;
+  color: $text_secondary;
 }
 
 .category-page .hero p {
@@ -2747,18 +2745,7 @@ ul {
   font-size: 20px;
   margin-bottom: 60px;
   max-width: 645px;
-}
-
-.category-page .hero svg {
-  bottom: 60px;
-}
-
-.category-page .hero > svg path {
-  fill: $primary_button_color;
-}
-
-.category-page .hero > svg:first-of-type path:nth-of-type(1), .category-page .hero > svg:first-of-type path:nth-of-type(2), .category-page .hero > svg:first-of-type path:nth-of-type(5), .category-page .hero > svg:last-of-type path:nth-of-type(1), .category-page .hero > svg:last-of-type path:nth-of-type(2) {
-  fill: $background_tertiary_color;
+  color: $text_secondary;
 }
 
 .category-page__content {
