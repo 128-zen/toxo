@@ -1646,10 +1646,8 @@ ul {
 .topics-item {
   padding: 30px;
   width: calc(33.3% - 20px);
-  border-radius: 12px;
-  box-shadow: 2px 2px 0px 0px rgba(22, 24, 45, 0.50);
-  border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  border-radius: 20px;
+  background-color: $background_secondary_color;
 }
 .blocks-item {
   display: flex;
