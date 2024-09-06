@@ -4766,7 +4766,7 @@ ul {
 .post-sidebar input[type=search]{
   padding: 12px 10px 12px 50px;
   border: 1px solid $border_color;
-  border-radius: 6px;
+  border-radius: 30px;
 }
 
 .post-sidebar input[type=search]::after {
