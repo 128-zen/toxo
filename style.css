@@ -4276,11 +4276,11 @@ ul {
   background-color: transparent;
 }
 
-.topic-header .dropdown-toggle {
+.posts .dropdown-toggle {
   color: $text_secondary;
 }
 
-.topic-header .dropdown-toggle svg path {
+.posts .dropdown-toggle svg path {
   fill: $text_secondary;
 }
 
