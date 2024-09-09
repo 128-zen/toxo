@@ -72,6 +72,13 @@
           "value": "#F87830"
         },
         {
+          "identifier": "primary_button_text_color",
+          "type": "color",
+          "description": "Choose primary button text color",
+          "label": "Primary Button Text Color",
+          "value": "#fff"
+        },
+        {
           "identifier": "hover_link_color",
           "type": "color",
           "description": "Choose color for the hover state of the links",

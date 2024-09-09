@@ -443,7 +443,7 @@ ul {
 .comment-form-controls input[type=submit] {
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 
 .comment-form-controls input[type=submit]:hover {
@@ -638,7 +638,7 @@ ul {
   border-radius: 50px;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 .form footer input:hover {
   background-color: $background_primary_color;
@@ -1495,7 +1495,7 @@ ul {
   transition: all .3s ease;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 .hero .search input[type=submit]:hover {
   background-color: $text_secondary;
@@ -1535,7 +1535,7 @@ ul {
 
 .popular-keywords a:hover {
   background-color: $primary_button_color;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 
 .page-header {
@@ -1850,7 +1850,7 @@ ul {
 .quick-links__item > div span {
   border-radius: 50px;
   padding: 6px 14px;
-  color: $text_secondary;
+  color: $primary_button_text_color;
   background-color: $primary_button_color;
 }
 
@@ -2281,7 +2281,7 @@ ul {
 }
 
 .faq__item.open h6 {
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 
 .faq__item:hover h6 {
@@ -2289,7 +2289,7 @@ ul {
 }
 
 .faq__item.open:hover h6 {
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 
 .faq__item div {
@@ -2627,7 +2627,7 @@ ul {
 .recent-activity-item-parent:hover {
   border: 1px solid $primary_button_color;
   background-color: $primary_button_color;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 
 .recent-activity-item-link {
@@ -4292,7 +4292,7 @@ ul {
   box-shadow: none;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 
 .topic-header .dropdown-toggle:hover svg, .topic-header .dropdown-toggle[aria-expanded='true'] svg, .my-activities-following-header .dropdown-toggle:hover svg, .my-activities-following-header .dropdown-toggle[aria-expanded='true'] svg, .profile-section-sorter .dropdown-toggle:hover svg, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] svg {
@@ -4466,7 +4466,7 @@ ul {
 .status-label {
   background-color: $primary_button_color;
   border-radius: 20px;
-  color: $text_secondary;
+  color: $primary_button_text_color;
   font-size: 14px;
   font-weight: 400;
   margin-right: 2px;
@@ -6261,7 +6261,7 @@ ul {
   background-color: $primary_button_color;
   background-position: 50% 50%;
   text-align: center;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 [dir=rtl] .profile-activity-icon {
   right: 0;
@@ -6936,7 +6936,7 @@ html[dir=rtl] .notification-left-aligned {
 .button-primary {
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $text_secondary;
+  color: $primary_button_text_color;
 }
 
 .button-primary:hover {
