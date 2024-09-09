@@ -1822,7 +1822,7 @@ ul {
 }
 
 .quick-links__item svg path {
-  fill: $text_secondary;
+  fill: $primary_button_text_color;
 }
 
 .quick-links__item svg rect {
@@ -1862,7 +1862,7 @@ ul {
 }
 
 .quick-links__item > div svg path {
-  stroke: $text_secondary;
+  stroke: $primary_button_text_color;
 }
 
 .quick-links__item > div:hover svg {
@@ -2001,7 +2001,7 @@ ul {
 }
 
 .categories__arrow svg path {
-  stroke: $text_secondary;
+  stroke: $primary_button_text_color;
 }
 
 .categories__arrow:hover svg {
@@ -2323,7 +2323,7 @@ ul {
 }
 
 .faq__item svg path {
-  stroke: $text_secondary;
+  stroke: $primary_button_text_color;
 }
 
 .faq__item.open svg path {
