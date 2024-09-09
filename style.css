@@ -6250,10 +6250,10 @@ ul {
   border-radius: 50%;
   background-size: 14px 14px;
   background-repeat: no-repeat;
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
   background-position: 50% 50%;
   text-align: center;
-  color: #ccc;
+  color: $text_secondary;
 }
 [dir=rtl] .profile-activity-icon {
   right: 0;
