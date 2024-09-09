@@ -1497,10 +1497,15 @@ ul {
   border: 1px solid $primary_button_color;
   color: $text_secondary;
 }
-.hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
+.hero .search input[type=submit]:hover {
   background-color: $text_secondary;
   border: 1px solid $text_secondary;
   color: $text_primary;
+}
+.error-page .search input[type=submit]:hover {
+  background-color: $background_primary_color;
+  border: 1px solid $background_primary_color;
+  color: $text_secondary;
 }
 .hero .search-icon, .error-page .search-icon {
   left: 20px;
