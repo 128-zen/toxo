@@ -1,7 +1,7 @@
 {
   "name": "Toxo 128",
   "author": "128zen",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -39,14 +39,14 @@
         {
           "identifier": "background_secondary_color",
           "type": "color",
-          "description": "Choose background color for header, footer and section",
+          "description": "Choose secondary background color",
           "label": "Background Secondary Color",
           "value": "#FFF9ED"
         },
         {
           "identifier": "background_tertiary_color",
           "type": "color",
-          "description": "Choose background color for containers",
+          "description": "Choose tertiary background color",
           "label": "Background Tertiary Color",
           "value": "#fff"
         },
