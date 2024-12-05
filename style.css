@@ -1440,7 +1440,7 @@ ul {
 
 @media (max-width: 1279px) {
   .hero-text {
-    font-size: 50px;
+    font-size: 48px;
   }
   .hero > div {
     width: calc(100% - 30px);
@@ -1544,8 +1544,15 @@ ul {
   color: $primary_button_text_color;
 }
 
+@media (max-width: 1023px) {
+  .popular-keywords {
+    max-width: 80%;
+  }
+}
+
 @media (max-width: 767px) {
   .popular-keywords {
+    max-width: none;
     flex-direction: column;
   }
   .popular-keywords p {
@@ -3254,6 +3261,12 @@ ul {
   }
 }
 
+@media (max-width: 1279px) {
+  .article-title, .post-title h1 {
+    font-size: 45px;
+  }
+}
+
 .article-title .icon-lock {
   position: relative;
   left: -5px;
@@ -3315,6 +3328,18 @@ ul {
 
 .article-body h2, .post-body h2, .comment-body h2 {
   margin: 25px 0 10px;
+}
+
+@media (max-width: 1279px) {
+  .article-body h2, .post-body h2, .comment-body h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .article-body h2, .post-body h2, .comment-body h2 {
+    font-size: 36px;
+  }
 }
 
 .article-body h3, .post-body h3, .comment-body h3 {
@@ -4419,7 +4444,7 @@ ul {
 }
 .post-overview-item {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .striped-list .meta-group {
   margin: 10px 0;
@@ -4433,7 +4458,7 @@ ul {
 }
 .striped-list-count {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   color: $body_primary;
   font-size: 14px;
   text-transform: capitalize;
@@ -6611,6 +6636,10 @@ ul {
   }
   .search-results-sidebar {
     max-width: none;
+  }
+  .search-results-page .container .no-results .action-prompt:last-of-type {
+    text-align: center;
+    max-width: 80%;
   }
 }
 
