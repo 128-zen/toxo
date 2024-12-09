@@ -263,12 +263,40 @@
   document.addEventListener('DOMContentLoaded', animateElements);
   window.addEventListener('scroll', animateElements);
 
+  if (document.querySelector('.hero')) {
+    const sections = document.querySelectorAll('section');
+    if (sections.length > 0) {
+        sections[sections.length - 1].classList.add('last-section');
+    }
+  }
+
   if (document.querySelector('.hero') && !document.querySelector('.category-page')) {
     const sections = document.querySelectorAll('section');
     if (sections.length > 0) {
         sections[1].classList.add('first-section');
     }
   }
+
+  if(document.querySelector('.partners') && !document.querySelector('.find-solution') && document.querySelector('.faq')) {
+    document.querySelector('.partners').classList.add('padding-top')
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section");
+  
+    sections.forEach((section, index) => {
+      if (section.classList.contains("videos") && !section.classList.contains("last-section")) {
+        if (index > 0) {
+          sections[index + 1].classList.add("after-videos");
+        }
+      }
+      if (section.classList.contains("faq") && !section.classList.contains("last-section")) {
+        if (index > 0) {
+          sections[index + 1].classList.add("padding-top");
+        }
+      }
+    });
+  });
 
   //DEFAULT THEME CODE
 

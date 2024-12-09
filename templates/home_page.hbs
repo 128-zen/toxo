@@ -421,8 +421,12 @@
       <img src="{{settings.partners_item2_img}}" alt="logo">
       <img src="{{settings.partners_item3_img}}" alt="logo">
       <img src="{{settings.partners_item4_img}}" alt="logo">
-      <img src="{{settings.partners_item5_img}}" alt="logo">
-      <img src="{{settings.partners_item6_img}}" alt="logo">
+      {{#if settings.show_partners_item5}}
+        <img src="{{settings.partners_item5_img}}" alt="logo">
+      {{/if}}
+      {{#if settings.show_partners_item6}}
+        <img src="{{settings.partners_item6_img}}" alt="logo">
+      {{/if}}
     </div>
   </div>
 </section>

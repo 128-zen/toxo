@@ -1,7 +1,7 @@
 {
   "name": "Toxo 128",
   "author": "128zen",
-  "version": "1.0.53",
+  "version": "1.0.54",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -1004,42 +1004,30 @@
           "label": "Item 4 Image"
         },
         {
+          "identifier": "show_partners_item5",
+          "type": "checkbox",
+          "description": "Show partners item 5",
+          "label": "Toggle Partners Item 5",
+          "value": true
+        },
+        {
           "identifier": "partners_item5_img",
           "type": "file",
           "description": "Insert image",
           "label": "Item 5 Image"
         },
         {
+          "identifier": "show_partners_item6",
+          "type": "checkbox",
+          "description": "Show partners item 6",
+          "label": "Toggle Partners Item 6",
+          "value": true
+        },
+        {
           "identifier": "partners_item6_img",
           "type": "file",
           "description": "Insert image",
           "label": "Item 6 Image"
-        }
-      ]
-    },
-    {
-      "label": "Category Page",
-      "variables": [
-        {
-          "identifier": "category_heading",
-          "type": "text",
-          "description": "Enter hero heading",
-          "label": "Hero Heading",
-          "value": "Hello, how can we help you?"
-        },
-        {
-          "identifier": "show_category_subtitle",
-          "type": "checkbox",
-          "description": "Show hero subtitle",
-          "label": "Toggle Subtitle Component",
-          "value": true
-        },
-        {
-          "identifier": "category_subtitle",
-          "type": "text",
-          "description": "Enter hero subtitle",
-          "label": "Hero Subtitle",
-          "value": "We have answers for all your questions. Let’s verify all the information to find out where your shipment is."
         }
       ]
     },
